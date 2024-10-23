@@ -242,13 +242,23 @@ h1{
     color:var(--gray)
 }
 .cardcontainer{
+    /* border: 1px solid #000; */
     margin-top:3rem;
-    display:grid;
+    display:flex;
+    /* flex-direction:column; */
+    justify-content: center;
+    flex-wrap: wrap;
     gap:20px;
-    grid-template-columns: repeat(2,350px);
     margin-bottom:50px;
 }
+.allCardContainer{
+    display:flex;
+    padding:50px;
+    width:70vw;
+    gap:20px;   
+}
 .card{
+    width:30vw;
     display:flex;
     flex-direction:column;
     padding:15px;
@@ -321,7 +331,9 @@ h1{
 .testcard-container{
     display:grid;
     gap:10px;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,2fr);
+    grid-template-rows:repeat(3,2fr);
+
 }
 .testcard{
     padding:15px;
