@@ -331,9 +331,7 @@ h1{
 .testcard-container{
     display:grid;
     gap:10px;
-    grid-template-columns: repeat(3,2fr);
-    grid-template-rows:repeat(3,2fr);
-
+    grid-template-columns: repeat(3,1fr);
 }
 .testcard{
     padding:15px;
